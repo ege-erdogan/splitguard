@@ -10,6 +10,7 @@ TODO: Link to paper
 
 ## Code
 
+The Jupyter notebook `splitguard.ipynb` contains a sample run of the SplitGuard protocol against an honest and a random-labeling server.
 
 ## Cite Our Work
 ```
