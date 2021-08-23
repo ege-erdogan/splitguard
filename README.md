@@ -6,7 +6,7 @@ Distributed deep learning frameworks, such as \textit{split learning}, have rece
 
 In this paper, we propose SplitGuard, a method by which a split learning client can detect whether it is being targeted by a training-hijacking attack or not. We experimentally evaluate its effectiveness, and discuss in detail various points related to its use. We conclude that SplitGuard can effectively detect training-hijacking attacks while minimizing the amount of information recovered by the adversaries.
 
-TODO: Link to paper
+https://arxiv.org/abs/2108.09052
 
 ## Code
 
@@ -14,5 +14,12 @@ The Jupyter notebook `splitguard.ipynb` contains a sample run of the SplitGuard 
 
 ## Cite Our Work
 ```
-TODO: Citation
+@article{erdogan2021splitguard,
+      title={SplitGuard: Detecting and Mitigating Training-Hijacking Attacks in Split Learning}, 
+      author={Ege Erdogan and Alptekin Kupcu and A. Ercument Cicek},
+      year={2021},
+      eprint={2108.09052},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR}
+}
 ```
