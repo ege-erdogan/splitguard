@@ -14,12 +14,20 @@ The Jupyter notebook `splitguard.ipynb` contains a sample run of the SplitGuard 
 
 ## Cite Our Work
 ```
-@article{erdogan2021splitguard,
-      title={SplitGuard: Detecting and Mitigating Training-Hijacking Attacks in Split Learning}, 
-      author={Ege Erdogan and Alptekin Kupcu and A. Ercument Cicek},
-      year={2021},
-      eprint={2108.09052},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR}
+@inproceedings{10.1145/3559613.3563198,
+author = {Erdogan, Ege and K\"{u}p\c{c}\"{u}, Alptekin and Cicek, A. Ercument},
+title = {SplitGuard: Detecting and Mitigating Training-Hijacking Attacks in Split Learning},
+year = {2022},
+isbn = {9781450398732},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3559613.3563198},
+doi = {10.1145/3559613.3563198},
+booktitle = {Proceedings of the 21st Workshop on Privacy in the Electronic Society},
+pages = {125–137},
+numpages = {13},
+keywords = {model inversion, split learning, data privacy, machine learning},
+location = {Los Angeles, CA, USA},
+series = {WPES'22}
 }
 ```
