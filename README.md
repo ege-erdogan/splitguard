@@ -1,18 +1,14 @@
-# SplitGuard: Detecting and Mitigating Training-Hijacking Attacks in Split Learning
+# Defense Mechanisms Against Training-Hijacking Attacks in Split Learning
 
 ## Abstract
 
-Distributed deep learning frameworks, such as *split learning*, have recently been proposed to enable a group of participants to collaboratively train a deep neural network without sharing their raw data. Split learning in particular achieves this goal by dividing a neural network between a client and a server so that the client computes the initial set of layers, and the server computes the rest. However, this method introduces a unique attack vector for a malicious server attempting to steal the client's private data: the server can direct the client model towards learning a task of its choice. With a concrete example already proposed, such training-hijacking attacks present a significant risk for the data privacy of split learning clients. 
+Distributed deep learning frameworks enable more efficient and privacy-aware training of deep neural networks across multiple clients. Split learning achieves this by splitting a neural network between a client and a server such that the client computes the initial set of layers, and the server computes the rest. However, this method introduces a unique attack vector for a malicious server attempting to recover the client’s private inputs: the server can direct the client model towards learning any task of its choice, e.g. towards outputting easily invertible values. With a concrete example already proposed (Pasquini et al., ACM CCS ’21), such training-hijacking attacks present a significant risk for the data privacy of split learning clients.
 
-In this paper, we propose SplitGuard, a method by which a split learning client can detect whether it is being targeted by a training-hijacking attack or not. We experimentally evaluate its effectiveness, and discuss in detail various points related to its use. We conclude that SplitGuard can effectively detect training-hijacking attacks while minimizing the amount of information recovered by the adversaries.
+We propose two methods for a split learning client to detect if it is being targeted by a training-hijacking attack or not. We experimentally evaluate our methods’ effectiveness, compare them with other potential solutions, and discuss various points related to their use. Our conclusion is that by using the method that best suits their use case, split learning clients can consistently detect training-hijacking attacks and thus keep the information gained by the attacker at a minimum.
 
 https://arxiv.org/abs/2108.09052
 
-## Code
-
-The Jupyter notebook `splitguard.ipynb` contains a sample run of the SplitGuard protocol against an honest and a random-labeling server.
-
-## Cite Our Work
+## Cite Our Papers
 ```
 @inproceedings{10.1145/3559613.3563198,
 author = {Erdogan, Ege and K\"{u}p\c{c}\"{u}, Alptekin and Cicek, A. Ercument},
@@ -29,5 +25,14 @@ numpages = {13},
 keywords = {model inversion, split learning, data privacy, machine learning},
 location = {Los Angeles, CA, USA},
 series = {WPES'22}
+}
+```
+
+```
+@article{erdogan2023defense,
+  title={Defense Mechanisms Against Training-Hijacking Attacks in Split Learning},
+  author={Erdogan, Ege and Teksen, Unat and Celiktenyildiz, Mehmet Salih and Kupcu, Alptekin and Cicek, A Ercument},
+  journal={arXiv preprint arXiv:2302.08618},
+  year={2023}
 }
 ```
