@@ -8,6 +8,10 @@ We propose two methods for a split learning client to detect if it is being targ
 
 https://arxiv.org/abs/2108.09052
 
+## Related and Follow-up Research
+
+Apart from SplitGuard, we offer a newer detection and defense method. Please check our new paper: [SplitOut](https://github.com/ege-erdogan/splitout)
+
 ## Cite Our Papers
 ```
 @inproceedings{10.1145/3559613.3563198,
