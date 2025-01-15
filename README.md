@@ -10,7 +10,7 @@ https://arxiv.org/abs/2108.09052
 
 ## Related and Follow-up Research
 
-Apart from SplitGuard, we offer a **<u>newer</u>** detection and defense method called SplitOut. Please check our **<u>new paper</u>**: **[SplitOut: Out-of-the-Box Training-Hijacking Detection in Split Learning via Outlier Detection](https://github.com/ege-erdogan/splitout)**
+Apart from SplitGuard, we offer a **newer** detection and defense method called SplitOut. Please check our **new paper**: **[SplitOut: Out-of-the-Box Training-Hijacking Detection in Split Learning via Outlier Detection](https://github.com/ege-erdogan/splitout)**
 
 ## Cite Our Papers
 ```
